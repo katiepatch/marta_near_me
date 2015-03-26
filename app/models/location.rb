@@ -4,4 +4,5 @@ class Location < ActiveRecord::Base
 
   def my_location
     "#{address}, #{city}, GA"
+  end
 end
